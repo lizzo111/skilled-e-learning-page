@@ -1,0 +1,268 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Plus+Jakarta+Sans:wght@500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+}
+
+main {
+  padding: 0 16px;
+  width: 376px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+header button {
+  all: unset;
+  border-radius: 28px;
+  background: var(--13183F, #13183f);
+  padding: 9px 24px 11px 24px;
+  color: var(--FFFFFF, #fff);
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.general img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #13183f;
+  font-size: 40px;
+  font-weight: 800;
+  margin-top: 22px;
+}
+
+.general p {
+  color: #83869a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 26px;
+}
+
+.general button {
+  all: unset;
+  border-radius: 31.5px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #fff;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
+  padding: 15px 37px 15px 38px;
+  margin-top: 24px;
+}
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.popular {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 32px;
+  padding: 24px 29px 32px 28px;
+}
+
+.course {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  padding: 56px 28px 32px;
+  position: relative;
+}
+
+.course h2 {
+  color: #13183f;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.course p {
+  color: #83869a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-top: 16px;
+}
+
+.course button {
+  all: unset;
+  color: var(--F74780, #f74780);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  margin-top: 24px;
+}
+
+.course img {
+  position: absolute;
+  top: -28px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 16px;
+  background: #13183f;
+}
+
+footer button {
+  all: unset;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+  padding: 9px 24px 11px;
+}
+
+footer span {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url("/assets/image-hero-tablet.webp");
+    background-repeat: no-repeat;
+    background-position: top -80px right -300px;
+  }
+
+  header {
+    padding: 31px 39px;
+  }
+
+  main {
+    width: 768px;
+    padding: 0 39px;
+  }
+
+  .general {
+    width: 398px;
+  }
+
+  .general img {
+    display: none;
+  }
+
+  .courses {
+    margin-top: 210px;
+    gap: 56px 10px;
+  }
+
+  .course,
+  .popular {
+    width: 340px;
+  }
+
+  footer {
+    padding: 36px 39px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  header {
+    padding: 38.75px 165.79px 0px 165.79px;
+  }
+
+  body {
+    background-position: top -55px right -150px;
+  }
+
+  main {
+    width: 1440px;
+    padding: 0 148px;
+  }
+
+  .general {
+    margin-top: 178px;
+    width: 457px;
+  }
+
+  .general h1 {
+    margin-bottom: 29px;
+    font-size: 56px;
+    font-weight: 800;
+  }
+
+  .general p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    width: 445px;
+    line-height: 28px;
+  }
+
+  .courses {
+    margin-top: 250px;
+    gap: 80px 30px;
+  }
+
+  .course,
+  .popular {
+    width: 350px;
+  }
+
+  .course {
+    padding: 64px 32px 40px;
+  }
+
+  .course h2 {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  .course p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+
+  .animation,
+  .crypto,
+  .business {
+    margin-bottom: 24px;
+  }
+
+  .design,
+  .photography {
+    margin-bottom: 52px;
+  }
+
+  .popular {
+    padding: 64px 32px 138px;
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 800;
+  }
+
+  footer {
+    padding: 46.75px 165.79px;
+  }
+}
