@@ -149,7 +149,7 @@ footer span {
 
 @media screen and (min-width: 768px) {
   body {
-    background-image: url("/assets/image-hero-tablet.webp");
+    background-image: url("./assets/image-hero-tablet.webp");
     background-repeat: no-repeat;
     background-position: top -80px right -300px;
   }
